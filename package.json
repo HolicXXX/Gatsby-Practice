@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-strata",
-  "description": "Gatsby Starter - Strata by HTML5 UP",
-  "version": "1.0.0",
-  "author": "Hunter Chang",
+  "name": "gatsby-practice",
+  "description": "Gatsby Practice",
+  "version": "0.0.1",
+  "author": "Allen DK",
   "dependencies": {
     "gatsby": "^1.9.146",
     "gatsby-image": "^1.0.31",
@@ -19,7 +19,7 @@
     "lodash": "^4.17.4",
     "react-images": "^0.5.14"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-strata",
+  "homepage": "https://localhost:8000",
   "keywords": [
     "gatsby"
   ],
@@ -27,7 +27,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-strata.git"
+    "url": "https://github.com/HolicXXX/Gatsby-Practice"
   },
   "scripts": {
     "dev": "gatsby develop",
