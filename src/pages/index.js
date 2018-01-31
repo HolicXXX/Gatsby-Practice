@@ -7,11 +7,14 @@ import Helmet from 'react-helmet'
 import Gallery from '../components/Gallery'
 
 import thumb01 from '../assets/images/thumbs/thumb_screambird.jpg'
+import thumb02 from '../assets/images/thumbs/thumb_fruitsquad.jpeg'
 
-import full01 from '../assets/images/fulls/full_screambird.jpg'
+import full01 from '../assets/images/fulls/full_screambird.png'
+import full02 from '../assets/images/fulls/full_fruitsquad.png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Scream Bird', description: 'My first game in my first job.', page: 'https://itunes.apple.com/cn/app/%E5%B0%96%E5%8F%AB%E9%B8%9F-%E5%85%A8%E6%96%B0%E5%A3%B0%E6%8E%A7%E6%B8%B8%E6%88%8F/id1211127073?mt=8', project: 'https://github.com/HolicXXX/ScreamBird'}
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'Scream Bird', description: 'My first game in my first job.', page: 'https://itunes.apple.com/cn/app/%E5%B0%96%E5%8F%AB%E9%B8%9F-%E5%85%A8%E6%96%B0%E5%A3%B0%E6%8E%A7%E6%B8%B8%E6%88%8F/id1211127073?mt=8', project: 'https://github.com/HolicXXX/ScreamBird'},
+    { id: '2', src: full02, thumbnail: thumb02, caption: 'Fruit Squad', description: 'Previous Cocos-2dx project.', page: null, project: 'https://github.com/HolicXXX/FruitSquad'}
 ];
 
 class HomeIndex extends React.Component {
@@ -87,11 +90,13 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <h2>Recent Work</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
+                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description, page, project }) => ({
                             src,
                             thumbnail,
                             caption,
-                            description
+                            description,
+                            page,
+                            project
                         }))} />
 
                         <ul className="actions">
@@ -119,17 +124,15 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
+                                        BeiJing.<br />
                                     </li>
                                     <li>
-                                        <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        <h3 className="icon fa-qq"><span className="label">QQ</span></h3>
+                                        775264487
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        <a href="mailto:allendk@foxmail.com">allendk@foxmail.com</a>
                                     </li>
                                 </ul>
                             </div>

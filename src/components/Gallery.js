@@ -69,8 +69,8 @@ class Gallery extends Component {
 
                     <h3>{obj.caption}</h3>
                     <p>{obj.description}</p>
-                    {obj.page ? <a href={obj.page}>Page</a> : <p>No Page Url</p>}
-                    {obj.project ? <a href={obj.project}>Project</a> : <p>No Project Url</p>}
+                    {obj.page ? <p><a href={obj.page}>Page</a></p> : <p>No Page Url</p>}
+                    {obj.project ? <p><a href={obj.project}>Project</a></p> : <p>No Project Url</p>}
                 </article>
             );
         });
