@@ -58,7 +58,7 @@
 
 	body, input, select, textarea {
 		color: _palette(fg);
-		font-family: _font(family);
+		font-family: Monaco;//_font(family);
 		font-size: 16pt;
 		font-weight: _font(weight);
 		line-height: 1.75em;
@@ -167,7 +167,7 @@
 		background: _palette(border-bg);
 		border-radius: _size(border-radius);
 		border: solid 2px _palette(border);
-		font-family: _font(family-fixed);
+		font-family: Monaco;//_font(family-fixed);
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -175,7 +175,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: _font(family-fixed);
+		font-family: Monaco;//_font(family-fixed);
 		font-size: 0.9em;
 		margin: 0 0 _size(element-margin) 0;
 
@@ -236,8 +236,15 @@
 
 		&.major {
 			h2 {
-				font-size: 2em;
+				font-size: 1.5em;
 			}
+		}
+
+		&.name {
+			h1 {
+				color: #49bf9d;
+			}
+
 		}
 	}
 
