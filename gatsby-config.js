@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Gatsby Practice",
     author: "Allen DK",
-    description: "A Gatsby Practice Project"
+    description: "A Gatsby Practice Project",
+    siteUrl: "/"
   },
   pathPrefix: '/',
   plugins: [

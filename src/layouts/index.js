@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import '../assets/scss/main.scss'
 
 import Header from '../components/Header'
+import Navi from '../components/Navi'
 
 class Template extends React.Component {
     render() {
@@ -11,6 +12,7 @@ class Template extends React.Component {
         return (
             <div>
                 <Header />
+                <Navi/>
                 {children()}
             </div>
         )

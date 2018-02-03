@@ -74,6 +74,8 @@ class HomeIndex extends React.Component {
                         <meta name="description" content={siteDescription} />
                 </Helmet>
 
+                <Link to="/blog-page/">Blog</Link>
+
                 <div id="main">
                     <section id="two">
                         <h2>Recent Work</h2>
@@ -129,6 +131,8 @@ export const pageQuery = graphql`
             siteMetadata {
                 title
                 description
+                url: siteUrl
+                author
             }
         }
     }
