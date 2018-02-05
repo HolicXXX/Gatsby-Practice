@@ -2,19 +2,17 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import Img from 'gatsby-image'
 
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/thumb_screambird.jpg'
-import thumb02 from '../assets/images/thumbs/thumb_fruitsquad.jpeg'
-
-import full01 from '../assets/images/fulls/full_screambird.png'
-import full02 from '../assets/images/fulls/full_fruitsquad.png'
+import ii from '../components/ex/importImages'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Scream Bird', description: 'My first game in my first job.', page: 'https://itunes.apple.com/cn/app/%E5%B0%96%E5%8F%AB%E9%B8%9F-%E5%85%A8%E6%96%B0%E5%A3%B0%E6%8E%A7%E6%B8%B8%E6%88%8F/id1211127073?mt=8', project: 'https://github.com/HolicXXX/ScreamBird'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Fruit Squad', description: 'Previous Cocos-2dx project.', page: null, project: 'https://github.com/HolicXXX/FruitSquad'}
+    { id: '1', src: ii.fs.src, thumbnail: ii.fs.thumb, fulls: ii.fs.fulls, caption: 'Fruit Squad', description: 'Previous Cocos-2dx project.', page: null, project: 'https://github.com/HolicXXX/FruitSquad'},
+    { id: '2', src: ii.sb.src, thumbnail: ii.sb.thumb, fulls: ii.sb.fulls, caption: 'Scream Bird', description: 'My first game in my first job.', page: 'https://itunes.apple.com/cn/app/%E5%B0%96%E5%8F%AB%E9%B8%9F-%E5%85%A8%E6%96%B0%E5%A3%B0%E6%8E%A7%E6%B8%B8%E6%88%8F/id1211127073?mt=8', project: 'https://github.com/HolicXXX/ScreamBird'},
+    { id: '3', src: ii.pm.src, thumbnail: ii.pm.thumb, fulls: ii.pm.fulls, caption: '小精灵大作战', description: '挂机类游戏, 公司产品.', page: null, project: null}
 ];
 
 class HomeIndex extends React.Component {
@@ -74,15 +72,14 @@ class HomeIndex extends React.Component {
                         <meta name="description" content={siteDescription} />
                 </Helmet>
 
-                <Link to="/blog-page/">Blog</Link>
-
                 <div id="main">
                     <section id="two">
                         <h2>Recent Work</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description, page, project }) => ({
+                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, fulls, caption, description, page, project }) => ({
                             src,
                             thumbnail,
+                            fulls,
                             caption,
                             description,
                             page,

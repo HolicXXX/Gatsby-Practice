@@ -5,6 +5,7 @@
   "author": "Allen DK",
   "dependencies": {
     "gatsby": "^1.9.146",
+    "gatsby-cli": "^1.1.34",
     "gatsby-image": "^1.0.31",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-google-analytics": "^1.0.14",
