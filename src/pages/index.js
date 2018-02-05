@@ -85,10 +85,6 @@ class HomeIndex extends React.Component {
                             page,
                             project
                         }))} />
-
-                        <ul className="actions">
-                            <li><Link to="/profile-page/" className="button">View Profile</Link></li>
-                        </ul>
                     </section>
 
                     <section id="three">
