@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Practice",
+    title: "AllenDK",
     author: "Allen DK",
-    description: "A Gatsby Practice Project",
+    description: "AllenDK's HomePage",
     siteUrl: "/"
   },
-  pathPrefix: '/',
+  pathPrefix: '/Profile',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

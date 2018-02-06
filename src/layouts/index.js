@@ -12,7 +12,7 @@ class Template extends React.Component {
         return (
             <div>
                 <Header />
-                <Navi/>
+                {/*<Navi/>*/}
                 {children()}
             </div>
         )
