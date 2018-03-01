@@ -10,7 +10,8 @@ import BlogPostTemplate from '../templates/blog-post'
 import devicon from 'devicon-2.2'
 import unity from '../assets/images/icons/unity.svg'
 import egret from '../assets/images/icons/egret.svg'
-import  cocos from '../assets/images/icons/cocos.svg'
+import cocos from '../assets/images/icons/cocos.svg'
+import lua from '../assets/images/icons/lua.svg'
 
 class Main extends React.Component {
 
@@ -49,15 +50,17 @@ class Main extends React.Component {
                             <li id="skills" className="animated flipInX"><span className="devicon-python-plain colored"/></li>
                             <li id="skills" className="animated flipInY"><span className="devicon-react-original colored"/></li>
                             <li id="skills" className="animated flipInX"><span className="devicon-typescript-plain colored"/></li>
+                            {/*<li id="skills" className="animated flipInY"><span className="devicon"/></li>*/}
                         </ul>
                     </section>
                     <section id="three">
                         <header className="engines">
-                            <div className="animated zoomIn">Engines</div>
+                            <div className="animated zoomIn">Engines & Others</div>
                             <ul className="icons">
                                 <li id="engines" className="animated flipInX"><img src={unity} alt="Unity3D" width={80} height={80}/></li>
                                 <li id="engines" className="animated flipInX"><img src={egret} alt="Egret" width={80} height={80}/></li>
                                 <li id="engines" className="animated flipInX"><img src={cocos} alt="Cocos2Dx" width={80} height={100}/></li>
+                                <li id="engines" className="animated flipInX"><img src={lua} alt="Lua" width={80} height={80}/></li>
                             </ul>
                         </header>
                     </section>

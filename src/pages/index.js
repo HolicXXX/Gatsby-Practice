@@ -73,6 +73,12 @@ class HomeIndex extends React.Component {
                 </Helmet>
 
                 <div id="main">
+                    <section id="one">
+                        <h2>More about ME</h2>
+                        <ul className="actions">
+                            <li><Link to="/profile-page" className="button">Profile</Link></li>
+                        </ul>
+                    </section>
                     <section id="two">
                         <h2>Recent Work</h2>
 

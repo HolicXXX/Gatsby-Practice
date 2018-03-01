@@ -203,7 +203,8 @@
 /* Navi */
 	#navigator {
 		margin-left: $size-header-width;
-		position: absolute;
+		position: fixed;
+		z-index: 99;
 		ul {
 			&#naviList {
 				text-align: left;
@@ -753,6 +754,12 @@
 				&#engines {
 					padding: 0.3em;
 					font-size: 5em;
+					img {
+						&:hover {
+							transform: scale(1.2,1.2);
+							transition: 0.3s;
+						}
+					}
 				}
 			}
 		}
@@ -1494,6 +1501,7 @@
 		/* Navi */
 			#navigator {
 				margin-left: 0;
+				position: relative;
 			}
 
 
@@ -1591,6 +1599,7 @@
 		/* Navi */
 			#navigator {
 				margin-left: 0;
+				position: relative;
 			}
 
 
