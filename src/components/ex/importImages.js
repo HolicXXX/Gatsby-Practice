@@ -38,6 +38,13 @@ import pm_12 from '../../assets/images/fulls/pm/12.png'
 import pm_13 from '../../assets/images/fulls/pm/13.png'
 import pm_14 from '../../assets/images/fulls/pm/14.png'
 
+import suv_thumb from '../../assets/images/thumbs/thumb_survival.jpg'
+import  suv_01 from '../../assets/images/fulls/survival/1.jpeg'
+import  suv_02 from '../../assets/images/fulls/survival/2.jpeg'
+import  suv_03 from '../../assets/images/fulls/survival/3.jpeg'
+import  suv_04 from '../../assets/images/fulls/survival/4.jpeg'
+import  suv_05 from '../../assets/images/fulls/survival/5.jpeg'
+
 const images = {
     fs: {
         src: fs_01,
@@ -53,6 +60,11 @@ const images = {
         src: pm_01,
         thumb: pm_thumb,
         fulls: [pm_01, pm_02, pm_03, pm_04, pm_05, pm_06, pm_07, pm_08, pm_09, pm_10, pm_11, pm_12, pm_13, pm_14,]
+    },
+    suv: {
+        src: suv_01,
+        thumb: suv_thumb,
+        fulls: [suv_01, suv_02, suv_03, suv_04, suv_05]
     }
 };
 
