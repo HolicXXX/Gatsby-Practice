@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import Lightbox from 'react-images';
+import LazyLoad from 'react-lazyload';
 
 class Gallery extends Component {
     constructor () {
@@ -60,20 +61,22 @@ class Gallery extends Component {
 
         const gallery = images.map((obj, i) => {
             return (
-                <article className="6u 12u$(xsmall) work-item" key={i}>
-                    <a
-                        className="image fit thumb"
-                        href={obj.src}
-                        onClick={(e) => this.openLightbox(i, e)}
-                    >
-                        <img src={obj.thumbnail} />
-                    </a>
+                <LazyLoad key={i}>
+                    <article className="6u 12u$(xsmall) work-item">
+                        <a
+                            className="image fit thumb"
+                            href={obj.src}
+                            onClick={(e) => this.openLightbox(i, e)}
+                        >
+                            <img src={obj.thumbnail} />
+                        </a>
 
-                    <h3>{obj.caption}</h3>
-                    <p>{obj.description}</p>
-                    {obj.page ? <p><a href={obj.page}>Page</a></p> : <p>No Page Url</p>}
-                    {obj.project ? <p><a href={obj.project}>Project</a></p> : <p>No Project Url</p>}
-                </article>
+                        <h3>{obj.caption}</h3>
+                        <p>{obj.description}</p>
+                        {obj.page ? <p><a href={obj.page}>Page</a></p> : <p>No Page Url</p>}
+                        {obj.project ? <p><a href={obj.project}>Project</a></p> : <p>No Project Url</p>}
+                    </article>
+                </LazyLoad>
             );
         });
 

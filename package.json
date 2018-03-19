@@ -18,7 +18,8 @@
     "gatsby-transformer-remark": "^1.7.25",
     "gatsby-transformer-sharp": "^1.6.16",
     "lodash": "^4.17.4",
-    "react-images": "^0.5.14"
+    "react-images": "^0.5.14",
+    "react-lazyload": "^2.3.0"
   },
   "homepage": "https://localhost:8000",
   "keywords": [

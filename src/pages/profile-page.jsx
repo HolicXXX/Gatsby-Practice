@@ -5,6 +5,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
+import LazyLoad from 'react-lazyload';
 import Helmet from 'react-helmet'
 import BlogPostTemplate from '../templates/blog-post'
 import devicon from 'devicon-2.2'
@@ -41,15 +42,15 @@ class Main extends React.Component {
                             <div className="animated zoomIn">Languages & Frameworks</div>
                         </header>
                         <ul className="icons">
-                            <li id="skills" className="animated flipInX"><span className="devicon-csharp-plain colored"/></li>
-                            <li id="skills" className="animated flipInY"><span className="devicon-cplusplus-plain colored"/></li>
-                            <li id="skills" className="animated flipInX"><span className="devicon-git-plain colored"/></li>
-                            <li id="skills" className="animated flipInY"><span className="devicon-github-plain colored"/></li>
-                            <li id="skills" className="animated flipInX"><span className="devicon-javascript-plain colored"/></li>
-                            <li id="skills" className="animated flipInY"><span className="devicon-html5-plain colored"/></li>
-                            <li id="skills" className="animated flipInX"><span className="devicon-python-plain colored"/></li>
-                            <li id="skills" className="animated flipInY"><span className="devicon-react-original colored"/></li>
-                            <li id="skills" className="animated flipInX"><span className="devicon-typescript-plain colored"/></li>
+                            <LazyLoad><li id="skills" className="animated flipInX"><span className="devicon-csharp-plain colored"/></li></LazyLoad>
+                            <LazyLoad><li id="skills" className="animated flipInY"><span className="devicon-cplusplus-plain colored"/></li></LazyLoad>
+                            <LazyLoad><li id="skills" className="animated flipInX"><span className="devicon-git-plain colored"/></li></LazyLoad>
+                            <LazyLoad><li id="skills" className="animated flipInY"><span className="devicon-github-plain colored"/></li></LazyLoad>
+                            <LazyLoad><li id="skills" className="animated flipInX"><span className="devicon-javascript-plain colored"/></li></LazyLoad>
+                            <LazyLoad><li id="skills" className="animated flipInY"><span className="devicon-html5-plain colored"/></li></LazyLoad>
+                            <LazyLoad><li id="skills" className="animated flipInX"><span className="devicon-python-plain colored"/></li></LazyLoad>
+                            <LazyLoad><li id="skills" className="animated flipInY"><span className="devicon-react-original colored"/></li></LazyLoad>
+                            <LazyLoad><li id="skills" className="animated flipInX"><span className="devicon-typescript-plain colored"/></li></LazyLoad>
                             {/*<li id="skills" className="animated flipInY"><span className="devicon"/></li>*/}
                         </ul>
                     </section>
@@ -57,10 +58,10 @@ class Main extends React.Component {
                         <header className="engines">
                             <div className="animated zoomIn">Engines & Others</div>
                             <ul className="icons">
-                                <li id="engines" className="animated flipInX"><img src={unity} alt="Unity3D" width={80} height={80}/></li>
-                                <li id="engines" className="animated flipInX"><img src={egret} alt="Egret" width={80} height={80}/></li>
-                                <li id="engines" className="animated flipInX"><img src={cocos} alt="Cocos2Dx" width={80} height={100}/></li>
-                                <li id="engines" className="animated flipInX"><img src={lua} alt="Lua" width={80} height={80}/></li>
+                                <LazyLoad><li id="engines" className="animated flipInX"><img src={unity} alt="Unity3D" width={80} height={80}/></li></LazyLoad>
+                                <LazyLoad><li id="engines" className="animated flipInX"><img src={egret} alt="Egret" width={80} height={80}/></li></LazyLoad>
+                                <LazyLoad><li id="engines" className="animated flipInX"><img src={cocos} alt="Cocos2Dx" width={80} height={100}/></li></LazyLoad>
+                                <LazyLoad><li id="engines" className="animated flipInX"><img src={lua} alt="Lua" width={80} height={80}/></li></LazyLoad>
                             </ul>
                         </header>
                     </section>
