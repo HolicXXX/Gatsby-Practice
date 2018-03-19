@@ -45,6 +45,16 @@ import  suv_03 from '../../assets/images/fulls/survival/3.jpeg'
 import  suv_04 from '../../assets/images/fulls/survival/4.jpeg'
 import  suv_05 from '../../assets/images/fulls/survival/5.jpeg'
 
+import ur_thumb from '../../assets/images/thumbs/thumb_ur.png'
+import  ur_01 from  '../../assets/images/fulls/ur/1.png'
+import  ur_02 from  '../../assets/images/fulls/ur/2.png'
+import  ur_03 from  '../../assets/images/fulls/ur/3.png'
+import  ur_04 from  '../../assets/images/fulls/ur/4.png'
+import  ur_05 from  '../../assets/images/fulls/ur/5.png'
+import  ur_06 from  '../../assets/images/fulls/ur/6.png'
+import  ur_07 from  '../../assets/images/fulls/ur/7.png'
+import  ur_08 from  '../../assets/images/fulls/ur/8.png'
+
 const images = {
     fs: {
         src: fs_01,
@@ -65,6 +75,11 @@ const images = {
         src: suv_01,
         thumb: suv_thumb,
         fulls: [suv_01, suv_02, suv_03, suv_04, suv_05]
+    },
+    ur: {
+        src: ur_01,
+        thumb: ur_thumb,
+        fulls: [ur_01, ur_02, ur_03, ur_04, ur_05, ur_06, ur_07, ur_08]
     }
 };
 
