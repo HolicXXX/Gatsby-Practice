@@ -15,6 +15,7 @@ const DEFAULT_IMAGES = [
     { id: '3', src: ii.pm.src, thumbnail: ii.pm.thumb, fulls: ii.pm.fulls, caption: '小精灵大作战', description: 'H5挂机类游戏, 公司产品.', page: null, project: null},
     { id: '4', src: ii.suv.src, thumbnail: ii.suv.thumb, fulls: ii.suv.fulls, caption: 'The King of Survivals', description: '简化版H5吃鸡游戏, Facebook平台', page: 'https://www.facebook.com/TheKingOfSurvivals/', project: 'https://apps.facebook.com/1297490843707549'},
     { id: '5', src: ii.ur.src, thumbnail: ii.ur.thumb, fulls: ii.ur.fulls, caption: 'Gesture Go', description: '手势识别小游戏, Facebook平台', page: 'https://www.facebook.com/Gesture-Go-Communities-347947602363689/', project: 'https://apps.facebook.com/1682325698516159'},
+    { id: '6', src: ii.qz.src, thumbnail: ii.qz.thumb, fulls: ii.qz.fulls, caption: "Let's Quiz", description: 'An intellectual online Q&A battle game on Facebook', page: 'https://www.facebook.com/letsquizcommunity/', project: 'https://apps.facebook.com/1543913708997846'},
 ];
 
 class HomeIndex extends React.Component {

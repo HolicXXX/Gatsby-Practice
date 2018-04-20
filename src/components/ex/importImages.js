@@ -55,6 +55,28 @@ import  ur_06 from  '../../assets/images/fulls/ur/6.png'
 import  ur_07 from  '../../assets/images/fulls/ur/7.png'
 import  ur_08 from  '../../assets/images/fulls/ur/8.png'
 
+import  qz_thumb from '../../assets/images/thumbs/thumb_quiz.png'
+import qz_01 from '../../assets/images/fulls/quiz/01.png'
+import qz_02 from '../../assets/images/fulls/quiz/02.png'
+import qz_03 from '../../assets/images/fulls/quiz/03.png'
+import qz_04 from '../../assets/images/fulls/quiz/04.png'
+import qz_05 from '../../assets/images/fulls/quiz/05.png'
+import qz_06 from '../../assets/images/fulls/quiz/06.png'
+import qz_07 from '../../assets/images/fulls/quiz/07.png'
+import qz_08 from '../../assets/images/fulls/quiz/08.png'
+import qz_09 from '../../assets/images/fulls/quiz/09.png'
+import qz_10 from '../../assets/images/fulls/quiz/10.png'
+import qz_11 from '../../assets/images/fulls/quiz/11.png'
+import qz_12 from '../../assets/images/fulls/quiz/12.png'
+import qz_13 from '../../assets/images/fulls/quiz/13.png'
+import qz_14 from '../../assets/images/fulls/quiz/14.png'
+import qz_15 from '../../assets/images/fulls/quiz/15.png'
+import qz_16 from '../../assets/images/fulls/quiz/16.png'
+import qz_17 from '../../assets/images/fulls/quiz/17.png'
+import qz_18 from '../../assets/images/fulls/quiz/18.png'
+import qz_19 from '../../assets/images/fulls/quiz/19.png'
+import qz_20 from '../../assets/images/fulls/quiz/20.png'
+
 const images = {
     fs: {
         src: fs_01,
@@ -80,6 +102,11 @@ const images = {
         src: ur_01,
         thumb: ur_thumb,
         fulls: [ur_01, ur_02, ur_03, ur_04, ur_05, ur_06, ur_07, ur_08]
+    },
+    qz: {
+        src: qz_01,
+        thumb: qz_thumb,
+        fulls: [qz_01, qz_02, qz_03, qz_04, qz_05, qz_06, qz_07, qz_08, qz_09, qz_10, qz_11, qz_12, qz_13, qz_14, qz_15, qz_16, qz_17, qz_18, qz_19, qz_20]
     }
 };
 
