@@ -55,7 +55,7 @@ import  ur_06 from  '../../assets/images/fulls/ur/6.png'
 import  ur_07 from  '../../assets/images/fulls/ur/7.png'
 import  ur_08 from  '../../assets/images/fulls/ur/8.png'
 
-import  qz_thumb from '../../assets/images/thumbs/thumb_quiz.png'
+import qz_thumb from '../../assets/images/thumbs/thumb_quiz.png'
 import qz_01 from '../../assets/images/fulls/quiz/01.png'
 import qz_02 from '../../assets/images/fulls/quiz/02.png'
 import qz_03 from '../../assets/images/fulls/quiz/03.png'
@@ -76,6 +76,19 @@ import qz_17 from '../../assets/images/fulls/quiz/17.png'
 import qz_18 from '../../assets/images/fulls/quiz/18.png'
 import qz_19 from '../../assets/images/fulls/quiz/19.png'
 import qz_20 from '../../assets/images/fulls/quiz/20.png'
+
+import rise_thumb from '../../assets/images/thumbs/thumb_rise.jpg'
+import rise_01 from '../../assets/images/fulls/rise/01.png'
+import rise_02 from '../../assets/images/fulls/rise/02.png'
+import rise_03 from '../../assets/images/fulls/rise/03.png'
+import rise_04 from '../../assets/images/fulls/rise/04.png'
+import rise_05 from '../../assets/images/fulls/rise/05.png'
+import rise_06 from '../../assets/images/fulls/rise/06.png'
+import rise_07 from '../../assets/images/fulls/rise/07.png'
+import rise_08 from '../../assets/images/fulls/rise/08.png'
+import rise_09 from '../../assets/images/fulls/rise/09.png'
+import rise_10 from '../../assets/images/fulls/rise/10.png'
+import rise_11 from '../../assets/images/fulls/rise/11.png'
 
 const images = {
     fs: {
@@ -107,6 +120,11 @@ const images = {
         src: qz_01,
         thumb: qz_thumb,
         fulls: [qz_01, qz_02, qz_03, qz_04, qz_05, qz_06, qz_07, qz_08, qz_09, qz_10, qz_11, qz_12, qz_13, qz_14, qz_15, qz_16, qz_17, qz_18, qz_19, qz_20]
+    },
+    rise: {
+        src: rise_01,
+        thumb: rise_thumb,
+        fulls: [rise_01, rise_02, rise_03, rise_04, rise_05, rise_06, rise_07, rise_08, rise_09, rise_10, rise_11]
     }
 };
 

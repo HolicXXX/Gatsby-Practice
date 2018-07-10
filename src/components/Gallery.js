@@ -62,7 +62,7 @@ class Gallery extends Component {
         const gallery = images.map((obj, i) => {
             return (
                 <LazyLoad key={i}>
-                    <article className="6u 12u$(xsmall) work-item">
+                    <article className="12u 12u$(xsmall) work-item">
                         <a
                             className="image fit thumb"
                             href={obj.src}
