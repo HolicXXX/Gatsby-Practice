@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-d8f5032f7a2c2ae63f46.js",
-      "component---src-pages-index-js-d8f5032f7a2c2ae63f46.js.map"
+      "component---src-pages-index-js-ffd52bb7a36821d752eb.js",
+      "component---src-pages-index-js-ffd52bb7a36821d752eb.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -39,18 +39,22 @@
       "path---profile-page-035b59172d223f709a3a.js.map"
     ],
     "app": [
-      "app-44dad1523fa2b9cd7f11.js",
+      "app-ac372f9ded1cca6f5c3e.js",
       "build-js-styles.css",
-      "app-44dad1523fa2b9cd7f11.js.map",
+      "app-ac372f9ded1cca6f5c3e.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---use-p-2-in-egret": [
+      "path---use-p-2-in-egret-d75b2798aed79347a107.js",
+      "path---use-p-2-in-egret-d75b2798aed79347a107.js.map"
     ],
     "component---src-pages-blog-page-jsx": [
       "component---src-pages-blog-page-jsx-a604f35992a721048866.js",
       "component---src-pages-blog-page-jsx-a604f35992a721048866.js.map"
     ],
     "path---blog-page": [
-      "path---blog-page-8d82d0b51b0616646f11.js",
-      "path---blog-page-8d82d0b51b0616646f11.js.map"
+      "path---blog-page-a74d464a91e5a8ca14ec.js",
+      "path---blog-page-a74d464a91e5a8ca14ec.js.map"
     ]
   }
 }
