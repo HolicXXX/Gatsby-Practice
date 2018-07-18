@@ -90,6 +90,21 @@ import rise_09 from '../../assets/images/fulls/rise/09.png'
 import rise_10 from '../../assets/images/fulls/rise/10.png'
 import rise_11 from '../../assets/images/fulls/rise/11.png'
 
+import gun_thumb from '../../assets/images/thumbs/thumb_gun.png'
+import gun_01 from '../../assets/images/fulls/gun/01.png'
+import gun_02 from '../../assets/images/fulls/gun/02.png'
+import gun_03 from '../../assets/images/fulls/gun/03.png'
+import gun_04 from '../../assets/images/fulls/gun/04.png'
+import gun_05 from '../../assets/images/fulls/gun/05.png'
+import gun_06 from '../../assets/images/fulls/gun/06.png'
+import gun_07 from '../../assets/images/fulls/gun/07.png'
+import gun_08 from '../../assets/images/fulls/gun/08.png'
+import gun_09 from '../../assets/images/fulls/gun/09.png'
+import gun_10 from '../../assets/images/fulls/gun/10.png'
+import gun_11 from '../../assets/images/fulls/gun/11.png'
+import gun_12 from '../../assets/images/fulls/gun/12.png'
+import gun_13 from '../../assets/images/fulls/gun/13.png'
+
 const images = {
     fs: {
         src: fs_01,
@@ -125,6 +140,11 @@ const images = {
         src: rise_01,
         thumb: rise_thumb,
         fulls: [rise_01, rise_02, rise_03, rise_04, rise_05, rise_06, rise_07, rise_08, rise_09, rise_10, rise_11]
+    },
+    gun: {
+        src: gun_01,
+        thumb: gun_thumb,
+        fulls: [gun_01, gun_02, gun_03, gun_04, gun_05, gun_06, gun_07, gun_08, gun_09, gun_10, gun_11, gun_12, gun_13]
     }
 };
 

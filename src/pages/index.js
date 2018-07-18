@@ -17,6 +17,7 @@ const DEFAULT_IMAGES = [
     { id: '5', src: ii.ur.src, thumbnail: ii.ur.thumb, fulls: ii.ur.fulls, caption: 'Gesture Go', description: '手势识别小游戏, Facebook平台', page: 'https://www.facebook.com/Gesture-Go-Communities-347947602363689/', project: 'https://apps.facebook.com/1682325698516159'},
     { id: '6', src: ii.qz.src, thumbnail: ii.qz.thumb, fulls: ii.qz.fulls, caption: "Let's Quiz", description: 'An intellectual online Q&A battle game on Facebook', page: 'https://www.facebook.com/letsquizcommunity/', project: 'https://apps.facebook.com/1543913708997846'},
     { id: '7', src: ii.rise.src, thumbnail: ii.rise.thumb, fulls: ii.rise.fulls, caption: "Infinity Rise", description: 'Keep the fire balloon alive and Rise it up to the moon.', page: 'https://www.facebook.com/Infinity-Rise-892767947569130/', project: 'https://www.facebook.com/instantgames/2124235181185698/'},
+    { id: '8', src: ii.gun.src, thumbnail: ii.gun.thumb, fulls: ii.gun.fulls, caption: "Flying Gun", description: 'Keep the gun flying!', page: 'https://www.facebook.com/Flying-Gun-Community-1593519124089968/', project: 'https://apps.facebook.com/2141327352781157'},
 ];
 
 class HomeIndex extends React.Component {
